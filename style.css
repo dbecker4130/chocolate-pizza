@@ -1,0 +1,159 @@
+.line {
+  height: 15px;
+  width: 901px;
+  margin: 0 auto;
+  background-color: gray;
+}
+#top {
+  margin: 0px auto 80px auto;
+  width: 901px;
+  height: 10px;
+  position: relative;
+}
+#logo>h1 {
+  margin: 0px;
+  display: block;
+  font-size: 1.7em;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  left: 46px;
+  font-family: 'pacifico', cursive;
+}
+#logo>span {
+  position: absolute;
+  top: 33px;
+  left: 46px;
+  font-size: 0.6em;
+  color: gray;
+}
+nav {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+}
+#logo>img {
+  position: absolute;
+  top: 0xp;
+  left: 0px;
+}
+#head {
+  margin: 30px auto 30px auto;
+  width: 901px;
+  position: relative;
+}
+#head>h2 {
+  margin: 0px;
+  font-family: 'oswald', sans-serif;
+}
+#head>p {
+  margin: 0px;
+  font-size: 0.6em;
+  color: gray;
+}
+#print {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 0.5em;
+}
+body>img {
+  display: block;
+  margin: 0 auto;
+  width: 901px;
+  clear: both;
+}
+body>p {
+  margin: 0 auto;
+  width: 901px;
+  padding: 13px;
+  text-indent: 30px;
+  font-family: Cambria;
+}
+#recipe {
+  margin: 10px auto 20px auto;
+  width: 901px;
+  height: 300px;
+  background-image: url("imgs/list-bg.png");
+  position: relative;
+}
+#list1 {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+}
+#list2 {
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+#bot {
+  margin: 20px auto 0 auto;
+  width: 901px;
+  position: relative;
+}
+#bot>button {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  background-color: salmon;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#bot>img {
+  top: 0px;
+  left: 0px;
+}
+#bot>h3 {
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 75px;
+}
+#bot>p {
+  margin: 0px;
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+footer>img {
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  margin: 0 auto;
+  width: 901px;
+  text-align: center;
+}
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+label {
+  font-family: 'Comfortaa', cursive;
+}
+input, label {
+  margin: 8px
+}
+#imgline {
+  padding: 0;
+  border: none;
+  border-top: medium double #8c8c8c;
+  color: #8c8c8c;
+  text-align: center;
+}
+#imgline:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #fff;
+}
+footer>hr,footer>img {
+  display: inline-block;
+}
