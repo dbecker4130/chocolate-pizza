@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fjalla+One|Gudea|Hind+Siliguri|Imprima|Lobster|Oswald|Pacifico|Pontano+Sans|Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fjalla+One|Gudea|Hind+Siliguri|Imprima|Lobster|Oswald|Pacifico|Pontano+Sans|Comfortaa|Questrial" rel="stylesheet">
   </head>
   <body>
     <div id="top">
@@ -24,7 +24,7 @@
         <img src="imgs/icons/mail-icon.png"/>
       </nav>
     </div>
-    <hr>
+    <hr class="line">
     <div id="head">
       <h2>Chocolate Pizza</h2>
       <p>POSTED ON DEC2013 / DESSERTS</p>
@@ -35,24 +35,36 @@
     <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
     <p>Using an ice cream machine, pour liquids into the frozen basin and process according to the manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue th process for +/- 10 minutes . Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
     <div id="recipe">
-      <ul id="ul1">
-        <li>1/2 cups milk</li>
-        <li>1/2 cup mascarpone</li>
-        <li>1/2 tsp pink salt</li>
-        <li>1lb Black Mission Figs</li>
-        <li>1/2 cup brown sugar</li>
-        <li>2-4 tbsp water</li>
-      </ul>
-      <ul id="ul2">
-        <li>1 1/2 cups heavy cream</li>
-        <li>1/3 granulated sugar</li>
-        <li>2 egg yolks</li>
-        <li>1 lemon, juiced</li>
-        <li>2 tbsp butter</li>
-        <li>1 cup honey roasted pecans, roughly chopped</li>
-      </ul>
+      <div id="list1">
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1/2 cups milk</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1/2 cup mascarpone</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1/2 tsp pink salt</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1lb Black Mission Figs</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1/2 cup brown sugar</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">2-4 tbsp water</label>
+      </div>
+      <div id="list2">
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1 1/2 cups heavy cream</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1/3 granulated sugar</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">2 egg yolks</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1 lemon, juiced</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">2 tbsp butter</label><br>
+        <input type="checkbox" name="packersOff" value="1"/>
+        <label class="strikethrough">1 cup honey roasted pecans, roughly chopped</label>
+      </div>
     </div>
-    <hr>
+    <hr class="line">
     <div id="bot">
       <img src="imgs/van-pic.png"/>
       <h3>Vanessa Stevenson</h3>
@@ -60,7 +72,9 @@
       <button>SHARE RECIPE</button>
     </div>
     <footer>
+      <hr width="400" align="left">
       <img src="imgs/small-logo.png"/>
+      <hr width="400" align="right"><br>
       <small>Delicious &copy; 2013 	&middot; All Rights Reserved.<br>Proudly published with Ghost.</small>
     </footer>
   </body>
